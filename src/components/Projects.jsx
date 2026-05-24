@@ -47,8 +47,8 @@ const Projects = () => {
       tags: ["Python", "API", "Data Analysis"],
       type: "Academic Project",
       image: sentiscope,
-      github: "https://github.com/Satendra1030/Sentiscope",
-      live: "https://sentiscope.vercel.app/",
+      github: "https://github.com/Satendra1030/Senti-Scope",
+      live: "https://senti-scope-satendra1030s-projects.vercel.app/",
     }
   ];
 
