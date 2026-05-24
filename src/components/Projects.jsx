@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-/*import jobportal from "../assets/jobportal.jpg";*/
+
 import portfolio from "../assets/portfolio.jpg";
 import toDoList from "../assets/to-do-list.jpg";
 import neuronotesAI from "../assets/neuronote_ai.png";
@@ -9,16 +9,7 @@ const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [
-    /*{
-      title: "Job Portal Website",
-      description: "A React job portal with clean UI and routing.",
-      tech: "React, Tailwind CSS",
-      tags: ["React", "Frontend", "UI"],
-      type: "Personal Project",
-      image: jobportal,
-      github: "#",
-      live: "#",
-    },*/
+   
     {
       title: "Portfolio Website",
       description: "Personal portfolio with modern UI, responsive design, and contact form integration.",
