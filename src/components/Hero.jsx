@@ -14,7 +14,7 @@ function Hero() {
       <div className="text-xl md:text-2xl font-medium text-gray-400 mb-4 h-10">
         <TypeAnimation
           sequence={[
-            "Frontend Developer",
+            userData.title,
             2000,
             "React Enthusiast",
             2000,

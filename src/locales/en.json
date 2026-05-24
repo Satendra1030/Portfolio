@@ -1,0 +1,102 @@
+{
+  "seo": {
+    "title": "Satendra Portfolio | Frontend Developer",
+    "description": "Satendra Prasad Kushwaha - Computer Engineering student and Frontend Developer from Nepal specializing in React, JavaScript, and modern UI development."
+  },
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "paragraph": "I'm a final year Computer Engineering student at Pokhara University, passionate about building clean and user-friendly web applications.",
+    "anim_dev": "Frontend Developer",
+    "anim_react": "React Enthusiast",
+    "anim_student": "Computer Engineering Student"
+  },
+  "about": {
+    "title_about": "About",
+    "title_me": "Me",
+    "bio": "Hi! I'm Satendra, a final year Computer Engineering student at Pokhara University, Pokhara, Nepal. I specialize in React and frontend development, building modern and responsive web applications. I enjoy creating clean UI designs, solving real-world problems, and continuously learning new technologies. Currently seeking an internship as a frontend developer.",
+    "download_cv": "Download CV",
+    "facts": {
+      "university": "University",
+      "degree": "Degree",
+      "semester": "Semester",
+      "location": "Location",
+      "availability": "Available for"
+    }
+  },
+  "skills": {
+    "title_my": "My",
+    "title_skills": "Skills",
+    "subtitle": "Technologies I use for frontend development"
+  },
+  "projects": {
+    "title_my": "My",
+    "title_projects": "Projects",
+    "labels": {
+      "tech": "Tech",
+      "github": "GitHub",
+      "live": "Live",
+      "demo": "Live Demo",
+      "close": "Close"
+    },
+    "types": {
+      "personal": "Personal Project",
+      "academic": "Academic Project"
+    },
+    "items": {
+      "jobportal": {
+        "title": "Job Portal Website",
+        "description": "A React job portal with clean UI and routing."
+      },
+      "portfolio": {
+        "title": "Portfolio Website",
+        "description": "Personal portfolio with modern UI, responsive design, and contact form integration."
+      },
+      "todo": {
+        "title": "To-Do App",
+        "description": "Task manager with local storage support."
+      }
+    }
+  },
+  "contact": {
+    "title_contact": "Contact",
+    "title_me": "Me",
+    "subtitle": "Feel free to reach out for internships, projects, or collaboration.",
+    "placeholder": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message"
+    },
+    "button": {
+      "send": "Send Message",
+      "sending": "Sending..."
+    },
+    "alert": {
+      "success": "Message sent successfully!",
+      "fail": "Failed to send message. Try again!"
+    }
+  },
+  "footer": {
+    "about_title": "My Portfolio",
+    "about_desc": "A passionate Frontend Developer focused on building modern, responsive, and interactive web applications using React and Tailwind CSS.",
+    "links_title": "Quick Links",
+    "links": {
+      "home": "Home",
+      "about": "About",
+      "skills": "Skills",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "contact_title": "Contact",
+    "contact": {
+      "email": "Email",
+      "phone": "Phone"
+    },
+    "bottom": "© {{year}} My Portfolio. Built with React & Tailwind CSS."
+  }
+}

@@ -26,7 +26,7 @@ const Projects = () => {
   type: "Personal Project",
   image: portfolio,
   github: "https://github.com/Satendra1030/Jobportfolio",
-  live: "https://jobportfolio-chi.vercel.app/",
+  live: "https://www.satendra.com.np/",
 },
     {
       title: "To-Do App",
