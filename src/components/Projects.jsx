@@ -8,7 +8,7 @@ const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [
-    {
+    {/*
       title: "Job Portal Website",
       description: "A React job portal with clean UI and routing.",
       tech: "React, Tailwind CSS",
@@ -17,7 +17,7 @@ const Projects = () => {
       image: jobportal,
       github: "#",
       live: "#",
-    },
+    */},
 {
   title: "Portfolio Website",
   description: "Personal portfolio with modern UI, responsive design, and contact form integration.",
@@ -35,8 +35,18 @@ const Projects = () => {
       tags: ["JavaScript", "Logic"],
       type: "Academic Project",
       image: toDoList,
-      github: "#",
-      live: "#",
+      github: "https://github.com/Satendra1030/my-todo-app",
+      live: "https://my-todo-app-flame-gamma.vercel.app/",
+    },
+    {
+      title: "NeuroNotes-AI",
+      description: "AI-powered PDF chat application built with React, Node.js, Express, and Groq AI",
+      tech: "React, Node.js, Express, Groq AI",
+      tags: ["AI", "Full Stack"],
+      type: "Academic Project",
+      image: NeuroNotes,
+      github: "https://github.com/Satendra1030/NeuroNotes-AI",
+      live: "https://neuronotes-ai.vercel.app/",
     },
   ];
 
