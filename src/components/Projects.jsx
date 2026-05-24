@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import jobportal from "../assets/jobportal.jpg";
 import portfolio from "../assets/portfolio.jpg";
 import toDoList from "../assets/to-do-list.jpg";
+import toDoList from "../assets/neuronote_ai.png";
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -38,6 +39,16 @@ const Projects = () => {
       github: "https://github.com/Satendra1030/my-todo-app",
       live: "https://my-todo-app-flame-gamma.vercel.app/",
     },
+    {
+      title: "NeuroNotes-AI",
+      description: "AI-powered note-taking app with neural network integration.",
+      tech: "Python, TensorFlow",
+      tags: ["Python", "AI", "Machine Learning"],
+      type: "Research Project",
+      image: toDoList,
+      github: "https://github.com/Satendra1030/NeuroNotes-AI",
+      live: "https://docu-chat-ai-virid.vercel.app/",
+    }
   ];
 
   return (
