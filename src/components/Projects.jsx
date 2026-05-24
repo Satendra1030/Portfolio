@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import portfolio from "../assets/portfolio.jpg";
 import toDoList from "../assets/to-do-list.jpg";
 import neuronotesAI from "../assets/neuronote_ai.png";
-
+import sentiscope from "../assets/sentiscope.jpg";
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
@@ -39,6 +39,16 @@ const Projects = () => {
       image: neuronotesAI,
       github: "https://github.com/Satendra1030/NeuroNotes-AI",
       live: "https://docu-chat-ai-virid.vercel.app/",
+    },
+     {
+      title: "Sentiscope",
+      description: "Sentiment analysis tool for social media monitoring.",
+      tech: "Python, Flask",
+      tags: ["Python", "API", "Data Analysis"],
+      type: "Academic Project",
+      image: sentiscope,
+      github: "https://github.com/Satendra1030/Sentiscope",
+      live: "https://sentiscope.vercel.app/",
     }
   ];
 
